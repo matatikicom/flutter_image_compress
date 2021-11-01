@@ -19,5 +19,6 @@ A new flutter plugin project.
   s.ios.deployment_target = '8.0'
   s.dependency 'SDWebImage'
   s.dependency 'SDWebImageWebPCoder'
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 end
 
